@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple cli to create react native components and screens",
   "main": "index.js",
+  "bin": {
+    "rn": "bin/rn"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
